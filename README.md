@@ -15,9 +15,9 @@ This repository presents an innovative project proposing an automated system for
 - [2. PLC-Raspberry Pi Communication](#2-plc-raspberry-pi-communication)
   - [2.1. Modbus Variables](#21-modbus-variables)
 - [Conclusion](#conclusion)
-- [License](#license)
 - [Dependencies](#dependencies)
 - [Directory Structure Example](#directory-structure)
+- [License](#license)
 ---
 
 ## Introduction
@@ -58,7 +58,7 @@ The percentage of white pixels in the segmented image is calculated. A high perc
 
 Analyzing the results validates the effectiveness of the algorithm. Here is an example of the obtained result:
 
-![Résultat du Traitement d'Images](Badminton_shuttlecocks_recycling_automatisation/images/result_image.jpg)
+![Résultat du Traitement d'Images](Badminton_shuttlecocks_recycling_automatisation/images/result_image.png)
 
 ## 2. PLC-Raspberry Pi Communication
 
@@ -80,11 +80,6 @@ The addresses defined in the holding register and their meanings are as follows:
 
 This project illustrates how Industry 4.0 technologies can be integrated to create an efficient automated system for sorting and recycling badminton shuttlecocks. By combining image processing, robotics, and robust communication between components, the system offers an innovative solution for sustainable waste management in the sports domain.
 
-## License
-
-This project is licensed under the MIT License. For more information, please see the LICENSE file.
-
-Note: To run the provided codes, ensure that you have installed all the necessary dependencies and have properly configured your hardware and software environment.
 
 ## Dependencies
 
@@ -101,7 +96,9 @@ __Installation of Dependencies__
 
 You can install the required Python packages using pip:
 
-’’pip install opencv-python numpy pymodbus picamera gpiozero’’
+’’’
+pip install opencv-python numpy pymodbus picamera gpiozero
+’’’
 
 ## Directory Structure Example
 
@@ -114,4 +111,11 @@ Badminton_shuttlecocks_recycling_automatisation/\
     └── images_processing.py\
     └── modbus_communication.py\
 └── images/\
-    └── result_image.jpg\
+    └── result_image.jpg
+
+## License
+
+This project is licensed under the MIT License.
+
+Note: To run the provided codes, ensure that you have installed all the necessary dependencies and have properly configured your hardware and software environment.
+
