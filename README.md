@@ -58,7 +58,7 @@ The percentage of white pixels in the segmented image is calculated. A high perc
 
 Analyzing the results validates the effectiveness of the algorithm. Here is an example of the obtained result:
 
-![Résultat du Traitement d'Images](Badminton_shuttlecocks_recycling_automatisation/images/result_image.png)
+![Résultat du Traitement d'Images](images/image_result.png)
 
 ## 2. PLC-Raspberry Pi Communication
 
