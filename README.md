@@ -58,7 +58,7 @@ The percentage of white pixels in the segmented image is calculated. A high perc
 
 Analyzing the results validates the effectiveness of the algorithm. Here is an example of the obtained result:
 
-![Résultat du Traitement d'Images](images/result_image.jpg)
+![Résultat du Traitement d'Images](Badminton_shuttlecocks_recycling_automatisation/images/result_image.jpg)
 
 ## 2. PLC-Raspberry Pi Communication
 
@@ -101,17 +101,17 @@ __Installation of Dependencies__
 
 You can install the required Python packages using pip:
 
-’’’pip install opencv-python numpy pymodbus picamera gpiozero’’’
+’’pip install opencv-python numpy pymodbus picamera gpiozero’’
 
 ## Directory Structure Example
 
 Your repository should have the following structure:
 
-tri-recyclage-volants-badminton/
-├── README.md
-├── LICENSE
-├── src/
-    └── images_processing.py
-    └── modbus_communication.py
-└── images/
-    └── result_image.jpg
+Badminton_shuttlecocks_recycling_automatisation/\
+├── README.md\
+├── LICENSE\
+├── src/\
+    └── images_processing.py\
+    └── modbus_communication.py\
+└── images/\
+    └── result_image.jpg\
